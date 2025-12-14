@@ -37,7 +37,7 @@
         }
     }"
     wire:ignore
-    class="ld-datepicker relative"
+    class="sb-datepicker relative"
 >
     <div class="relative">
         <input
@@ -66,6 +66,6 @@
 </div>
 
 @assets
-    <link rel="stylesheet" href="{{ config('ld-datepicker.flatpickr_css_url') }}">
-    <script src="{{ config('ld-datepicker.flatpickr_js_url') }}"></script>
+    <link rel="stylesheet" href="{{ config('sb-datepicker.flatpickr_css_url') }}">
+    <script src="{{ config('sb-datepicker.flatpickr_js_url') }}"></script>
 @endassets

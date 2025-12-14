@@ -58,7 +58,7 @@
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 
 export default {
-  name: 'LdDatepicker',
+  name: 'SbDatepicker',
   props: {
     modelValue: { type: [String, Date], default: null },
     placeholder: { type: String, default: 'Select date' },

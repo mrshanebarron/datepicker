@@ -41,7 +41,7 @@
             }
         }
     }"
-    class="ld-datepicker relative"
+    class="sb-datepicker relative"
 >
     <div class="relative">
         <input
@@ -73,9 +73,9 @@
 
 @once
     @push('styles')
-        <link rel="stylesheet" href="{{ config('ld-datepicker.flatpickr_css_url') }}">
+        <link rel="stylesheet" href="{{ config('sb-datepicker.flatpickr_css_url') }}">
     @endpush
     @push('scripts')
-        <script src="{{ config('ld-datepicker.flatpickr_js_url') }}"></script>
+        <script src="{{ config('sb-datepicker.flatpickr_js_url') }}"></script>
     @endpush
 @endonce
